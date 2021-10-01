@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap');
+*{
+	padding:0;
+	margin:0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+body, html{
+	height: 100%;
+	width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+	font-family: 'Dancing Script', cursive;
+}
+
+p{
+	font-family: 'Lora', serif;
+}
+
+/* Hero */
+.hero.wedding__1__hero{
+	background-image: url('../img/prewedding-hero-alt.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	object-fit: cover;
+}
+
+.hero.wedding__1__hero .hero-body{
+	background-color: rgba(255, 250, 241, 0);
+	text-align: center;
+	align-items: flex-start;
+}
+
+.title.wedding__1__headline{
+	color: #AF734A;
+	font-size: 3rem;
+}
+
+.subtitle.wedding__1__tagline{
+	color: #AF734A;
+	font-size: 3rem;
+}
+
+.subtitle.wedding__1__date{
+	color: #AF734A;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 1rem;
+}
+
+/* First Section */
+.section.wedding__1__section__first{
+	background-color: #FFFAF1;
+	text-align: center;
+}
+
+.title.wedding__1__section__first__title{
+	color: #AF734A;
+	font-size: 1.5rem;
+}
+
+.subtitle.wedding__1__section__first__subtitle{
+	font-size: 1rem;
+	color: #3B271D;
+	line-height: 1.5;
+}
+
+.title.wedding__1__couple__name{
+	color: #AF734A;
+	font-size: 1.5rem;
+}
+
+.subtitle.wedding__1__couple__info{
+	color: #3B271D;
+	font-size: 0.85rem;
+	font-weight: 500;
+}
+
+.wedding__1__couple__photo{
+	position: relative;
+}
+
+.icon-and{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+/* Second Section */
+.section.wedding__1__section__second{
+	background-color: #EFE0BB;
+	text-align: center;
+}
+
+.subtitle.wedding__1__section__second__translate{
+	font-size: 1rem;
+	color: #3B271D;
+	line-height: 1.7;
+}
+
+.wedding__1__section__second__ayat{
+	font-family: 'Lora',serif;
+	font-weight: 700;
+}
+
+.title.wedding__1__save{
+	font-size: 1rem;
+	font-family: 'Mulish',sans-serif;
+	font-weight: 700;
+	padding-top: 3rem;
+	padding-bottom: 1rem;
+}
+
+.heading.wedding__1__day{
+	font-size: 0.75rem;
+	font-weight: 600;
+}
+.heading.wedding__1__hour{
+	font-size: 0.75rem;
+	font-weight: 600;
+}
+.heading.wedding__1__minute{
+	font-size: 0.75rem;
+	font-weight: 600;
+}
+.heading.wedding__1__second{
+	font-size: 0.75rem;
+	font-weight: 600;
+}
+
+/* Third Section */
+.section.wedding__1__section__third{
+	background-color: #C7934E;
+	padding:1rem;
+	text-align: center;
+}
+
+.title.wedding__1__savetime{
+	font-size: 1rem;
+	font-family: 'Lora',serif;
+	color: #fff;
+}
+
+/* Fourth Section */
+.section.wedding__1__section__fourth{
+	background-color: #FFFAF1;
+	text-align: center;
+}
+
+.title.wedding__1__title__roundown{
+	color: #AF734A;
+	font-size: 1.5rem;
+}
+
+.subtitle.wedding__1__subtitle__roundown{
+	font-size: 1rem;
+}
+
+.title.wedding__1__title__location__name{
+	font-family: 'Lora',serif;
+	font-size: 1rem;
+	font-weight: 700;
+	color: #AF734A;
+}
+
+.subtitle.wedding__1__subtitle__location{
+	font-size: 0.85rem;
+	font-weight: 500;
+}
+
+.button.wedding__location__btn{
+	background-color: transparent;
+	border: 2px solid #C7934E;
+	font-family: 'Lora',serif;
+	font-weight: 700;
+}
+
+.hehe{
+	margin-top: 5rem;
+}
+
+/* Fifth Section */
+.section.wedding__1__section__fifth{
+	background-color: #FFFAF1;
+	text-align: center;
+}
+
+.title.wedding__1__section__fifth__title{
+	font-family: 'Lora',serif;
+	font-size: 1.5rem;
+	line-height: 1.3;
+	color: #AF734A;
+}
+
+.wedding__1__protocol{
+	margin-top: 3rem;
+}
+
+.title.wedding__1__protocol__title{
+	font-family: 'Mulish',serif;
+	font-size: 1rem;
+	font-weight: 700;
+	padding-top: 1rem;
+	line-height: 1.3;
+	color: #AF734A;
+}
+
+/* Six Section */
+.section.wedding__1__section__six{
+	padding:0;
+	text-align: center;
+}
+.wedding__1__gallery .column.is-3{
+	overflow:hidden;
+}
+
+.wedding__1__gallery__img {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.wedding__1__gallery__img:hover {
+  transform: scale(1.1);
+}
+
+.sl-wrapper .sl-counter{
+	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	color: #AF734A !important;
+}
+
+.sl-overlay{
+	background-color: #FFFAF1;
+	overflow-x: hidden;
+}
+
+.sl-wrapper .sl-navigation button.sl-prev {
+    color: #AF734A;
+}
+
+.sl-wrapper .sl-navigation button.sl-next {
+    color: #AF734A;
+}
+
+.sl-wrapper .sl-close{
+	color: #AF734A !important;
+}
+
+@media (min-width: 50em){
+	.sl-wrapper .sl-navigation button.sl-prev {
+	    color: #AF734A;
+	}
+
+	.sl-wrapper .sl-navigation button.sl-next {
+	    color: #AF734A;
+	}
+}
+
+/* Seven Section */
+.section.wedding__1__section__seven{
+	background-color: #FFFAF1;
+	text-align: center;
+}
+
+.title.wedding__1__section__seven__title{
+	color: #AF734A;
+	font-size: 2rem;
+}
+
+/* Footer */
+.footer.wedding__1__footer{
+	background-color: #EFE0BB;
+	padding:1rem 1rem 1rem;
+	text-align: center;
+}
+
+.title.wedding__1__footer__title{
+	font-size: 1rem;
+	font-weight: 700;
+	font-family: 'Dancing Script', cursive;
+	color: #AF734A;
+}
